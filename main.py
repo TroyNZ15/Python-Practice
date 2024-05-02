@@ -1,17 +1,8 @@
-# Ask the user their name
-# Greet the user and introduce them to the quiz
-# Ask the user a question
-# Tell the user the answer
-# End the quiz
 
 # Introduction
 print("hello there")
-
-# Question
-name= input("what is your name?")
-
-# Statement
-print("welcome to this quiz on what to do if you encounter a bear")
+name= input("what is your name?\n")
+print("welcome to this quiz on what to do if you encounter a bear", name)
 
 # Statement
 print("if it's brown lay down, if it's black fight back, if it's white good night")
